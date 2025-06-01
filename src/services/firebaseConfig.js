@@ -4,12 +4,12 @@ import { getStorage } from "firebase/storage";
 import { getAuth } from "firebase/auth"; 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAGgGLZgtYYXh6ay5yvjUeqG1vBPFIlkX4",
-  authDomain: "ideal-abode.firebaseapp.com",
-  projectId: "ideal-abode",
-  storageBucket: "ideal-abode.appspot.com",
-  messagingSenderId: "349376761182",
-  appId: "1:349376761182:web:282c465d78a639dbc9d3cf",
+  apiKey: "yourapikey",
+  authDomain: "yourproject.firebaseapp.com",
+  projectId: "yourprojectID",
+  storageBucket: "yourproject.appspot.com",
+  messagingSenderId: "yourmessagingID",
+  appId: "yourappID",
 };
 
 const app = initializeApp(firebaseConfig);
